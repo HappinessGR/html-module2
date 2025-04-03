@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MyPorfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my personal Webpage</h1>
+      <nav>
+        <a href="#aboutMe">About Me</a>
+        <a href="#myInterest">My interest</a>
+        <a href="#mybucket">My bucket list</a>
+        <a href="#contactMe">Contact Me</a>
+      </nav>
+    </header>
+    <main>
+      <section id="aboutMe" class="about-me">
+        <img src="./assets/me.jpg" class="me"/>
+        <h2>About Me</h2>
+        <p>
+          A bachelor’s in computer science graduate from the University of
+          Venda, with knowledge and experience in programming, networks, and IT
+          helpdesk. Developed skills in routers, switches, firewalls
+          administration and configuration during the last 8 months on my
+          internship with the NWU IT department. Dynamic communicatorwith
+          knowledge of streamlining processes, determining appropriate
+          solutions, and resolving tech problems. Seeking to join a reliable
+          organization in entry level roles and utilize my skills and knowledge
+          to grow while adding positive value to the organization.
+        </p>
+
+        <hr />
+      </section>
+      <section id="myInterest">
+        <h2>My interest</h2>
+        <ul class="interest">
+          <li>👩‍💻 Coding and Software Development</li>
+          <li>✈️Traveling and Exploring New Places</li>
+          <li>📖Reading novel</li>
+          <li>📽️🎥movies</li>
+        </ul>
+      </section>
+      <hr />
+      <section id="mybucket">
+        <h2>My Bucket List</h2>
+        <table border="1">
+          <tr>
+            <th>Item</th>
+            <th>Reason</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>Visit Kyoto, Japan.</td>
+            <td>Experience the culture and cherry blossoms</td>
+            <td>Not Started</td>
+          </tr>
+          <tr>
+            <td>Skydiving</td>
+            <td>Overcome my fear of heights</td>
+            <td>Not Started</td>
+          </tr>
+          <tr>
+            <td>enroll for Master in data science</td>
+            <td>to dive deep into data science</td>
+            <td>In Progress</td>
+          </tr>
+          <tr>
+            <td>buy a house</td>
+            <td>have a property under my Name</td>
+            <td>Not Started</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <section id="contactMe">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label> <br />
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <br />
+          <button type="submit">Send Message</button><br />
+        </form>
+      </section>
+      <hr />
+      <section>
+        <h2>Something I Like</h2>
+        <img src="./assets/squidgame.jpg" alt="Something I like" width="600" />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>My Favourite Video</h2>
+        <video width="560" height="315" controls muted>
+          <source src="./assets/WhatsApp Video 2025-04-01 at 21.43.13_01307522.mp4 Video 2025-04-01 at 21.43.13_01307522.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+    </main>
+    <footer>
+      &copy; 2025 Constancia matsimbi | Learning web devepment
+  </footer>
+  </body>
+</html>
